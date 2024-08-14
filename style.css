@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    background-image: url('../images/body-bg.png.webp');
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-color:antiquewhite;
+    color:"white";
+    transition: transform 0.3s ease;
+    
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+section{
+    padding: 5rem 0;
+}
+
+
+
+.header-wrapper .navbar-brand img{
+    max-width: 10rem;
+    height: auto;
+}
+.header-wrapper .navbar-toggler:focus{
+    box-shadow: none;
+}
+.header-wrapper .nav-item{
+    margin:0 0.625rem;
+}
+.header-wrapper .nav-item .nav-link{
+font-size: 0.9375rem;
+font-weight: 500;
+text-transform: uppercase;
+color:black;
+display: inline-block;
+}
+.header-wrapper .nav-item .nav-link:hover{
+    color:aqua;
+}
+.header-wrapper .nav-item .nav-link:active{
+    color:blue;
+}
+/*banner*/
+.banner-wrapper{
+    margin-top: 10rem;
+    z-index: 1;
+    background-image: url('../images/home-banner.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.banner-wrapper .banner-content{
+    vertical-align: middle;
+    align-self: center;
+}
+.banner-wrapper .banner-content h2::after{
+    content:"";
+    width:60%;
+    height:0.125rem;
+    position: absolute;
+    top:50%;
+    left:25%;
+    overflow-x: hidden;
+    background: black;
+}
+span{
+    color:brown;
+    
+}
+.banner-wrapper h1{
+    font-weight: 700;
+}
+/*waving hand*/
+.wave {
+    display: inline-block;
+    animation: wave-animation 2s infinite;
+    transform-origin: 70% 70%;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+
+  @keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  /**about**/
+  /**skills**/
+  .skills {
+    margin-top: 30px;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+}
+
+.skill-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.skill p {
+    margin: 0;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.skill-bar .skill-level {
+    height: 100%;
+    width: 0;
+    background-color: #4caf50;
+    transition: width 2s ease;
+}
+/*card*/
+#card h5{
+    font-weight: 600;
+    font-size: medium;
+}
+#card p{
+    
+    font-size: small;
+}
+/*Contact*/
+#Contact {
+    color:"red"
+}
+#Contact h6{
+    word-spacing: 0.3rem;
+}
+/*about*/
+#about{
+    word-spacing: 0.5rem;
+}
+.head{
+    background-color: yellow;
+}

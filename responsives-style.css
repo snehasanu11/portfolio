@@ -1,0 +1,104 @@
+@media (max-width:1199.5px){
+    /*custom css*/
+    h1{
+    font-size: 3.75rem;
+    
+    }
+    h2{
+    font-size: 1.4rem;
+    }
+    h3{
+    font-size: 1.875rem;
+    line-height: 2.6rem;
+    }
+    h5{
+    font-size: 1rem;
+    }
+    /*abou*/
+    #about h2{
+    color: brown;
+    font-size:2rem ;
+    font-weight: 800;
+    text-decoration: underline;
+    
+    }
+    /*project*/
+    #Projects h2{
+        color: brown;
+        font-size:2rem ;
+        font-weight: 800;
+        text-decoration: underline;
+        
+        position: relative;
+        bottom: 50px;
+        left: 20px;
+    }
+    /*contact*/
+    #Contact h5{
+        color: brown;
+        font-size:1rem ;
+        font-weight: 600;
+        text-decoration: underline;   
+    }
+    
+    }
+    
+    @media (max-width:991px){
+    /*2 navbar*/
+    }
+    @media (max-width:767px){
+        /*custom css*/
+        h1{
+            font-size: 2.5rem;
+            line-height: 3rem;
+           
+        }
+        h2{
+            font-size: 1.2rem;
+            line-height: 2.3rem;
+            
+        }
+        h3{
+            font-size: 1.5rem;
+            line-height: 2.1rem;
+        }
+        
+        
+        /*about*/
+    }
+    @media (max-width:575.5px){
+    /*7 blogs*/
+    h2{
+        font-size: 1rem;
+        line-height: 1rem;
+       
+    }
+    #about h2{
+        margin-bottom: 1.7rem;
+    }
+    #Contact h6{
+        word-spacing: 0.3rem;
+    }
+    #Contact{
+        margin-bottom: 300px;
+    }
+    
+    }
+    @media (max-width:373px){
+        /*7 blogs*/
+        h1{
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+        h2{
+            font-size: 0.8rem;
+            line-height: 1rem;
+           
+        }
+        h3{
+            font-size: 0.4rem;
+            line-height: 0.5rem;
+        }
+    
+        }
+        
